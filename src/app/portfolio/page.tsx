@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaArrowDown, FaCode, FaBrain, FaRocket, FaEnvelope, FaDownload, FaExternalLinkAlt, FaStar } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaArrowDown, FaCode, FaBrain, FaRocket, FaEnvelope, FaDownload, FaExternalLinkAlt } from 'react-icons/fa';
 import { SiTypescript, SiPython, SiReact, SiNodedotjs, SiDocker, SiTensorflow, SiMysql, SiMongodb, SiNextdotjs, SiNestjs } from 'react-icons/si';
 
 export default function Portfolio() {
@@ -321,7 +321,7 @@ function AboutSection() {
         >
           <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500/50 transition-all duration-300">
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
-              I'm a <span className="text-blue-400 font-semibold">final-year Software Engineering undergraduate</span> at SLIIT, 
+              I&apos;m a <span className="text-blue-400 font-semibold">final-year Software Engineering undergraduate</span> at SLIIT, 
               passionate about backend development, AI/NLP, and building tech that makes a difference.
             </p>
           </div>
@@ -607,7 +607,7 @@ function ContactSection() {
       title: "LinkedIn",
       value: "/in/damruwan",
       href: "https://linkedin.com/in/damruwan",
-      description: "Let's connect professionally"
+      description: "Let&apos;s connect professionally"
     },
     {
       icon: <FaGithub className="text-gray-400" />,
@@ -636,7 +636,7 @@ function ContactSection() {
         >
           <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6">Get in touch</h3>
           <p className="text-gray-300 text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed">
-            I'm always interested in discussing new opportunities, innovative projects, 
+            I&apos;m always interested in discussing new opportunities, innovative projects, 
             or just having a chat about technology. Feel free to reach out!
           </p>
           
