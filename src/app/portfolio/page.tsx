@@ -625,7 +625,7 @@ function ContactSection() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Let's Connect! 🤝
+        Let&apos;s Connect! 🤝
       </motion.h2>
       
       <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
